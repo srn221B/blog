@@ -1,5 +1,5 @@
 ---
-title: "Great Expectationについて調べてみた"
+title: "Great Expectationsについて調べてみた"
 date: 2022-12-11T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
@@ -323,6 +323,7 @@ kwargs: {'value_set': ['xxxx', 'yyyy'], 'column': 'varchar_column'}
 2. column「int_column」は0~7のvalueである。
 3. column「varchar_column」はNULLが入らない。
 4. column「varchar_column」は'xxxx'か'yyyy'のvalueが入る。
+
 [ExpectationConfiguration](https://github.com/great-expectations/great_expectations/blob/9fed397a318f5fa773f274f11db2116b65b1dcc9/great_expectations/core/expectation_configuration.py#L96)に渡す、expectation_typeとkwargsについてはProfilingした時と同じ[こちらのページ](https://greatexpectations.io/expectations/?filterType=Backend%20support&gotoPage=1&showFilters=false&viewType=Summary)を参考に行う。
 ```python
 # 新規suiteとvalidatorの作成
@@ -427,7 +428,7 @@ INSERT INTO sample_poyo VALUES (9, 'xxxx', 'zzzz');
          7 | yyyy           | zzzz
          9 | yyyy           | zzzz
 ```
-そうすると次のように結果が変わる。
+そうすると次のように結果が変わる。検証対象９行(element_count)のうち1行(unexpected_count)が期待通りではない、という意味だ。
 ```
 expectation_type: expect_column_values_to_be_between
 kwargs: {'column': 'int_column', 'max_value': 7, 'min_value': 0, 'batch_id': 'b431836ba46465a1106559d8e5ff2656'}
