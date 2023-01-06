@@ -1,5 +1,5 @@
 ---
-title: "AirflowのTaskFlowAPIについて調べてみた"
+title: "AirflowのTaskFlowAPIについて"
 date: 2023-01-01T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
