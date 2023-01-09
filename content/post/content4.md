@@ -10,7 +10,7 @@ showToc: true
 TocOpen: true
 draft: false
 hidemeta: false
-comments: false
+comments: true
 description: "old"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
@@ -18,10 +18,10 @@ disableShare: false
 disableHLJS: false
 hideSummary: false
 searchHidden: true
-ShowReadingTime: true
+ShowReadingTime: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-ShowWordCount: true
+ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:

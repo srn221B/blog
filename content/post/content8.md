@@ -3,14 +3,14 @@ title: "AirflowのPluginsについて"
 date: 2023-01-04T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Airflow","python"]
+tags: ["Airflow","Python"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: true
 draft: false
 hidemeta: false
-comments: false
+comments: true
 description: "カスタマイズ機能についてです"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
@@ -18,10 +18,10 @@ disableShare: false
 disableHLJS: false
 hideSummary: false
 searchHidden: true
-ShowReadingTime: true
+ShowReadingTime: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-ShowWordCount: true
+ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
@@ -289,7 +289,7 @@ class MyPlugins(AirflowPlugin):
     appbuilder_views = [v_appbuilder_package]
 ```
 上記の場合、メニューバー名`Test Plugin`セクション名`Test View`にViewへのLinkを設定しており、Linkをアクセスすると'hello test_page'と表示されることを期待している。
-### 作成を反映させる。
+#### 作成を反映させる。
 webserverの再起動が必要。
 #### 作成したページにアクセスしてみる。
 - 期待通りのメニューバーとセクションができている。

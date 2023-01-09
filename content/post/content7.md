@@ -3,14 +3,14 @@ title: "AirflowのTaskFlowAPIについて"
 date: 2023-01-01T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Airflow","python"]
+tags: ["Airflow","Python"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: true
 draft: false
 hidemeta: false
-comments: false
+comments: true
 description: "今更ですがしっかり調べてみました"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
@@ -18,10 +18,10 @@ disableShare: false
 disableHLJS: false
 hideSummary: false
 searchHidden: true
-ShowReadingTime: true
+ShowReadingTime: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-ShowWordCount: true
+ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:

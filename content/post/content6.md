@@ -3,14 +3,14 @@ title: "Great Expectationsについて調べてみた"
 date: 2022-12-11T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["gx","python"]
+tags: ["GreatExpectations","Python"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: true
 draft: false
 hidemeta: false
-comments: false
+comments: true
 description: "調べたことと試してみたことについてまとめてあります。"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
@@ -18,10 +18,10 @@ disableShare: false
 disableHLJS: false
 hideSummary: false
 searchHidden: true
-ShowReadingTime: true
+ShowReadingTime: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-ShowWordCount: true
+ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
