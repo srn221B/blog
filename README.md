@@ -1,2 +1,1 @@
 - [https://467tn.com/post/](https://467tn.com/post/)とリンクされています。
-  - ご指摘・ご質問ありましたらIssueにてどうぞ
